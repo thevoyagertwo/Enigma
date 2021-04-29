@@ -1,10 +1,11 @@
-
+import Enigma.Rotors;
 
 public class main {
 
     public static void main (String[] args){
 
-        System.out.println("Hello");
+        Rotors rotorI = new Rotors("I");
+        System.out.println(rotorI.getCypher()[1]);
 
     }
 
