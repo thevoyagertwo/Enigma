@@ -13,7 +13,7 @@ public class main {
         System.out.println(getCharForNumber(2));
 
         char aa = 'b';
-        System.out.println(getIntForChar(aa));
+        System.out.println(charArrayToIntArray(rotorI.getCypher())[2] );
 
     }
 
