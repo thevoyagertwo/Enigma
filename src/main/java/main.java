@@ -21,7 +21,7 @@ public class main {
         char[][] plugBoardArray_char = {{'A', 'B'}, {'D', 'C'}};
         PlugBoard plugBoard = new PlugBoard(plugBoardArray_char);
 
-        System.out.println(plugBoard.plugs.get(1).getPlug_in_char() + " s");
+        System.out.println(plugBoard.plugs.get(0).getPlug_1_char() );
 
 
     }
