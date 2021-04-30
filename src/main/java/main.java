@@ -1,4 +1,8 @@
 import Enigma.Rotors;
+import utility.Char_Int_changer;
+
+import static java.lang.Character.*;
+import static utility.Char_Int_changer.*;
 
 public class main {
 
@@ -7,6 +11,9 @@ public class main {
         Rotors rotorI = new Rotors("I");
         System.out.println(rotorI.getCypher()[2]);
         System.out.println(getCharForNumber(2));
+
+        char aa = 'b';
+        System.out.println(getIntForChar(aa));
 
     }
 
