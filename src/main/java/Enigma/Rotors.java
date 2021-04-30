@@ -10,8 +10,10 @@ public class Rotors {
     private char[] cypher_char; // contains the scrambled alphabet as char
     private int[] cypher_int;   // contains the scrambled alphabet as int
 
+    //constructor
     public Rotors(String name) {
         this.name = name;
+        // uses the name of the rotor to set the cypher
         switch (name) {
             case "I":
                 this.cypher_char = new char[]{'E', 'K', 'M', 'F', 'L', 'G', 'D', 'Q', 'V', 'Z', 'N', 'T', 'O', 'W', 'Y', 'H', 'X', 'U', 'S', 'P', 'A', 'I', 'B', 'R', 'C', 'J'};
@@ -38,12 +40,13 @@ public class Rotors {
                 break;
         }
 
+        // converts the character cypher array to an int array
         this.cypher_int = charArrayToIntArray(cypher_char);
 
     }
 
 
-
+    // getters and setters
 
     public String getName() {
         return this.name;

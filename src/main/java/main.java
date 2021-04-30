@@ -10,7 +10,7 @@ public class main {
 
         Rotors rotorI = new Rotors("I");
         System.out.println(rotorI.getCypher_char()[2]);
-        System.out.println(getCharForInt(2));
+        System.out.println(charToInt(2));
 
         char aa = 'b';
         System.out.println(charArrayToIntArray(rotorI.getCypher_char())[2] );
