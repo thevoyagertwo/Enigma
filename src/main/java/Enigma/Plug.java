@@ -9,7 +9,7 @@ public class Plug {
     private int plug_in_int,plug_out_int;
 
     //constructor
-    public Plug(char plug_in , char plug_out){
+    public Plug(char plug_in_char , char plug_out_char){
     this.plug_in_char  = plug_in_char;
     this.plug_out_char = plug_out_char;
     // converts char to an int
