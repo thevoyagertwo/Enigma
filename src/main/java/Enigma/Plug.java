@@ -12,6 +12,7 @@ public class Plug {
     public Plug(char plug_in , char plug_out){
     this.plug_in_char  = plug_in_char;
     this.plug_out_char = plug_out_char;
+    // converts char to an int
     this.plug_in_int  = charToInt(plug_in_char);
     this.plug_out_int = charToInt(plug_out_char);
 }
